@@ -1,4 +1,4 @@
 # horizon-bank
 
 
-*Notificacion de discord agregada
+*Notificacion de discord.
