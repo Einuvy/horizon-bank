@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap');
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    color: #2e2e2e;
+    background-color: #ffffff;
+    padding: 1rem;
+    line-height: 1.7;
+}
+
+h1{
+    color:#004080; 
+    font-size: 2.6em;
+    text-align: center;
+    margin-bottom: 1.30rem;
+}
+
+h2,h3{
+    color: #0066cc;
+    border-left: 0.35rem solid #004080;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+p{
+    font-size: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+ul{
+    list-style-type: circle;
+    padding-left: 1.25rem;
+}
+
+ul li{
+    background-color: #e8f1fa;
+    margin-bottom: 0.6rem;
+    padding: 0.65rem;
+    border-radius: 0.3rem;
+    color: #004080;
+}
+a{
+    color: #004080;
+    text-decoration: none;
+}
+footer {
+    color: #004080;
+    text-align: center;
+    padding: 1.25rem;
+    width: 100%;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+.redes {
+    list-style-type: none;
+    margin: 1.25rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.redes a{
+    color: white;
+    font-size: 1.7rem;
+    transition: color 0.3s ease;
+}
+
+.redes li{
+    margin: 0 0.65rem
+}
+
+.redes a.fc:hover {
+    color: #1da1f2;
+}
+
+.redes a.x:hover {
+    color: #2e2e2e;
+}
+
+.redes a.ig:hover {
+    color: #e4408d; 
+}
+
+.redes a.whats:hover {
+    color: #22b33a; 
+}
