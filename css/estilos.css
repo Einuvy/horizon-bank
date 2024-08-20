@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Nunito", sans-serif;
+}
+
+/*estilos para el encabezado*/
+
+.header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0; left: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container .btn-menu, .logo{
+    float: left;
+}
+
+.container .btn-menu label{
+    color: rgb(53, 88, 177);
+    font-size: 25px;
+    cursor: pointer;  
+}
+
+.logo h1{
+    color: darkcyan;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.container .menu {
+    float: right;
+    line-height: 70px;
+}
+
+.container .menu a{
+    display: inline-block;
+    padding: 15px 10px;
+    line-height: normal;
+    text-decoration: none;
+    color: rgb(30, 149, 157);
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+}
+
+.container .menu a:hover {
+    border-bottom: 2px solid #03bcdd;
+    padding: 5px 10px;
+} 
+/*Fin de estilos para encabezado*/
+
+/*Menu lateral*/
+
+#btn-menu {
+    display: none;
+}
+
+.container-menu {
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100vh;
+    top: 0; left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden; 
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible; 
+}
+
+.cont-menu {
+    width: 100%;
+    max-width: 250px;
+    background: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.cont-menu nav{
+    transform: translateY(15%);
+}
+
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: aquamarine;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.cont-menu nav a:hover {
+    border-left: 5px solid aquamarine;
+    background: #1f1f1f;
+
+}
+
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: blanchedalmond;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*Galeria*/
+
+.slider-frame {
+    width: 820px ;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 100%; 
+}
+ /*Fin de galeria*/
+
+ /*Texto "Nosotros" */
+
+ .Nosotros{
+    height: 50vh;
+    margin: 5%;
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+ }
+
+ p{
+    width: 65% ;
+ }
+
+/*formulario index*/
+
+form{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.imput-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form h2{
+  color: #03bcdd;
+  font-size: 35px;
+}
+

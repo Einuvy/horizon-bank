@@ -1,40 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizon Bank</title>
+	<meta charset="UTF-8">
+	<title>Horizon Bank</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
 </head>
 <body>
-    <h1>Horizon Bank</h1>
+	<header class="header">
+		<div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"></label>
+            </div>
+			<div class="logo">
+				<h1>Horizon Bank</h1>
+			</div>
+			<nav class="menu">
+				<a href="#">1145562358</a>
+				<a href="#">horizonbank@gmail.com</a>
+			</nav>
+		</div>
+	</header>
+    <div class="capa"></div>
+  <!--- ------------------------------->
+  <input type="checkbox" id="btn-menu">
+   <div class="container-menu">
+      <div class="cont-menu">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Cuentas</a>
+            <a href="./paginas/transferencias.html">Transferencias</a>
+            <a href="#">Pagos</a>
+        </nav>
+        <label for="btn-menu" class="icon-cruz"></label>
+      </div>
+    </div>
+    <div class="slider-frame">
+        <ul>
+            <li><img src="./img/slider1.jpg" alt=""></li>
+            <li><img src="./img/slider2.jpg" alt=""></li>
+            <li><img src="./img/slider3.jpg" alt=""></li>
+            <li><img src="./img/slider4.jpg" alt=""></li> 
+        </ul>
+    </div>
+    <div class="Nosotros">
+        <h2>Nosotros</h2>
+        <p>Horizon Bank fue fundado en 1973, en Michigan City, Indiana, Estados Unidos. Comenzó como un banco local con un enfoque en servir a la comunidad
+          y ayudar al crecimiento económico de la región. A lo largo de los años, ha expandido sus operaciones, manteniendo siempre su compromiso de proporcionar
+          un servicio personalizado y de alta calidad a sus clientes. <br>
+          Desde su fundación, ha evolucionado de ser una pequeña institución financiera comunitaria a un banco con presencia en varios estados,
+           adaptándose a los cambios en la industria bancaria mientras sigue arraigado en los valores que lo han caracterizado desde sus inicios. <br>
+            <br>
+         Nos distinguimos por ofrecer un servicio cercano y personalizado. 
+          Esforzandonos por entender las necesidades individuales de nuestros clientes y adaptar soluciones a las mismas. <br>
+          Aunque es un banco con una tradición sólida, Horizon Bank también invierte en tecnología moderna para ofrecer 
+          servicios digitales convenientes, como la banca en línea y aplicaciones móviles, facilitando la gestión de las finanzas desde cualquier lugar. <br>
+          Contamos con un fuerte enfoque en el apoyo a la comunidad local, participando en proyectos y ofreciendo productos que benefician a los negocios 
+          locales y a las personas en su área de influencia. <br>
+          Nos enorgullece operar con altos estándares éticos, siendo transparentes en nuestras políticas y tarifas,
+          lo que permite a los clientes tomar decisiones informadas sobre sus finanzas.
+        </p>
+    </div>
+    <form>
+        <h2>Consultas</h2>
+        <div class="imput-group">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Ej: Lucas Biontti">
 
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="Ej: 1147523879">
 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="lucas.biontti@gmail.com">
 
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
 
-
-
-
-    <!-- De acá para abajo se construye "Menú lateral" -->
-
-
-
-
-
-
-
-
-    <!-- De acá para abajo se construye "Área principal" -->
-    <h2></h2>
-
-
-
-
-
-
-
-
-
-
-
+            <input class="btn" type="submit" value="Enviar">
+        </div>
+    </form>
 </body>
 </html>
