@@ -1,0 +1,76 @@
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+.redes {
+    list-style-type: none;
+    margin: 1.25rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.redes a{
+    color: white;
+    font-size: 1.7rem;
+    transition: color 0.3s ease;
+}
+
+.redes li{
+    margin: 0 0.65rem
+}
+
+.redes a.fc:hover {
+    color: #1da1f2;
+}
+
+.redes a.x:hover {
+    color: #7b7474;
+}
+
+.redes a.ig:hover {
+    color: #e4408d; 
+}
+
+.redes a.whats:hover {
+    color: #22b33a; 
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.swal-modal{
+    background-color: rgb(17 24 39);
+}
+
+.swal-title{
+    color: #FFFFFF
+}
+.swal-text{
+    color: #FFFFFF
+}
+
+.swal-button--confirm{
+    background-color: #1da1f2;
+    color: white;
+}
+
+.swal-button--confirm:hover{
+    background-color: #2ea9f5;
+}
+
+.swal-button--cancel{
+    background-color: transparent;
+    color: white;
+}
+.swal-button--cancel:hover{
+    color: gray;
+}

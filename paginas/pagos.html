@@ -21,7 +21,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
-    <title>Transferencias</title>
+    <title>Pagos y Prestamos</title>
   </head>
   <body>
     <div class="flex bg-gray-500 dark:bg-gray-900 w-full">
@@ -152,7 +152,7 @@
               <li class="mb-2">
                 <a
                   href="/paginas/transferencias.html"
-                  class="flex items-center px-4 py-2 text-sm font-bold rounded-md bg-gray-800 h-10"
+                  class="flex items-center px-4 py-2 text-sm font-bold rounded-md hover:bg-gray-800 h-10"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -171,8 +171,8 @@
               </li>
               <li class="mb-2">
                 <a
-                  href="/paginas/pagos.html"
-                  class="flex items-center px-4 py-2 text-sm font-bold rounded-md hover:bg-gray-800 h-10"
+                  href="pagos.html"
+                  class="flex items-center px-4 py-2 text-sm font-bold rounded-md bg-gray-800 h-10"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +202,7 @@
             <ul>
               <li class="mb-2">
                 <a
-                  href="/paginas/cuentas.html"
+                  href="cuentas.html"
                   class="flex items-center justify-center px-4 py-8 text-sm font-bold rounded-lg hover:bg-gray-800 h-10"
                 >
                   <svg
@@ -221,7 +221,7 @@
               <li class="mb-2">
                 <a
                   href="/paginas/transferencias.html"
-                  class="flex items-center justify-center px-4 py-8 text-sm font-bold rounded-lg bg-gray-800 h-10"
+                  class="flex items-center justify-center px-4 py-8 text-sm font-bold rounded-lg hover:bg-gray-800 h-10"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -238,8 +238,8 @@
               </li>
               <li class="mb-2">
                 <a
-                  href="/paginas/pagos.html"
-                  class="flex items-center justify-center px-4 py-8 text-sm font-bold rounded-lg hover:bg-gray-800 h-10"
+                  href="/paginas/transferencias.html"
+                  class="flex items-center justify-center px-4 py-8 text-sm font-bold rounded-lg bg-gray-800 h-10"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -265,25 +265,16 @@
           id="main"
         >
           <div class="flex flex-col items-center w-full gap-5 dark:bg-gray-800">
-            <h2 class="font-bold text-2xl uppercase mt-12">Transferencias</h2>
-            <ul
-              role="list"
-              class="divide-y divide-gray-100 w-full max-w-[800px] border-solid border-2 border-sky-500 dark:border-gray-700 rounded-sm p-4"
-              id="lista-contactos"
+            <h2 class="font-bold text-2xl uppercase mt-12">
+              Pagos y Prestamos
+            </h2>
+            <div
+              class="w-full flex justify-around my-12 flex-wrap md:flex-nowrap gap-5"
             >
-              <h2
-                class="text-lg font-bold leading-tight tracking-tight text-gray-900 md:text-xl dark:text-white text-center"
-              >
-                Tus contactos
-              </h2>
-            </ul>
-            <div class="w-full flex justify-around my-12 flex-wrap gap-5">
-              <section
-                class="dark:bg-gray-900 w-full sm:min-w-[300px] max-w-[700px]"
-              >
-                <div class="flex flex-col dark:bg-gray-800">
+              <section class="dark:bg-gray-900 w-full sm:min-w-[300px]">
+                <div class="flex flex-col dark:bg-gray-800 px-12">
                   <div
-                    class="w-full bg-white rounded-sm shadow dark:border md:mt-0 xl:p-0 dark:bg-gray-800 dark:border-gray-700 max-w-[800px] sm:min-w-[300px]"
+                    class="w-full bg-white rounded-sm shadow dark:border md:mt-0 xl:p-0 dark:bg-gray-800 dark:border-gray-700 max-w-[800px]"
                   >
                     <div
                       class="p-6 space-y-4 md:space-y-6 sm:p-8 justify-center"
@@ -291,35 +282,34 @@
                       <h2
                         class="text-lg font-bold leading-tight tracking-tight text-gray-900 md:text-xl dark:text-white text-center"
                       >
-                        Transferir
+                        Pagar
                       </h2>
                       <form
                         class="space-y-4 md:space-y-6"
-                        id="hi-transferir-plata"
+                        id="hi-pagar-cuenta"
                       >
                         <div>
                           <label
-                            htmlFor="receptor"
+                            htmlFor="codigo-pago"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                            >CBU / Alias</label
+                            >Nº codigo de barras</label
                           >
                           <input
                             type="text"
-                            name="receptor"
+                            name="codigo-pago"
                             required="true"
-                            id="receptor-tranferencia"
+                            id="codigo-pago"
                             class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="0170099220000067797370"
+                            placeholder="01700998974894189486454648489189189984497370"
                             required=""
                             autocomplete="off"
-                            maxlength="22"
                             minlength="6"
-                            aria-errormessage="Error: clave incorrecta"
+                            aria-errormessage="Error: codigo incorrecto"
                           />
                         </div>
                         <div>
                           <label
-                            for="amount"
+                            for="amount-pago"
                             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                             >Monto</label
                           >
@@ -329,8 +319,8 @@
                             >
                               <span class="text-gray-500 sm:text-sm">$</span>
                             </div>
-                            <input type="number" name="amount"
-                            id="amount-transfer" required autocomplete="off"
+                            <input type="number" name="amount-pago"
+                            id="amount-pago" required autocomplete="off"
                             class="block w-full rounded-md border-0 py-1.5 pl-7
                             pr-20 text-gray-900 dark:text-white dark:bg-gray-700
                             ring-gray-300 placeholder:text-gray-400 focus:ring-2
@@ -340,17 +330,17 @@
                               class="absolute inset-y-0 right-0 flex items-center"
                             >
                               <label
-                                for="currency"
+                                for="moneda-pago"
                                 class="sr-only"
-                                >Currency</label
+                                >moneda-pago</label
                               >
                               <select
-                                id="currency"
-                                name="currency"
+                                id="moneda-pago"
+                                name="moneda-pago"
                                 class="h-full rounded-md border-0 bg-transparent py-0 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm dark:text-white dark:bg-gray-700 dark:text-white"
                               >
-                                <option value="ARS">ARS</option>
-                                <option value="USD">USD</option>
+                                <option>ARS</option>
+                                <option>USD</option>
                               </select>
                             </div>
                           </div>
@@ -371,125 +361,6 @@
                             >
                               <option
                                 selected
-                                value="nada"
-                              >
-                                Selecciona una cuenta
-                              </option>
-                            </select>
-                          </div>
-                        </div>
-                        <button
-                          class="w-full text-white bg-primary-600 hover:bg-primary-700 hover:ring-4 hover:ring-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-sm text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                        >
-                          Realizar Transferencia
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <section
-                class="dark:bg-gray-900 w-full sm:min-w-[300px] max-w-[700px]"
-              >
-                <div class="flex flex-col dark:bg-gray-800 h-full">
-                  <div
-                    class="w-full bg-white rounded-sm shadow dark:border md:mt-0 xl:p-0 dark:bg-gray-800 dark:border-gray-700 max-w-[800px] sm:min-w-[300px]"
-                  >
-                    <div
-                      class="p-6 space-y-4 md:space-y-6 sm:p-8 justify-center"
-                    >
-                      <h1
-                        class="text-lg font-bold leading-tight tracking-tight text-gray-900 md:text-xl dark:text-white text-center"
-                      >
-                        Convertir
-                      </h1>
-                      <form
-                        class="space-y-4 md:space-y-6"
-                        id="hi-convertir-plata"
-                      >
-                        <div>
-                          <label
-                            for="amount-convertir"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                            >Monto a convertir</label
-                          >
-                          <div class="relative mt-2 rounded-md shadow-sm">
-                            <div
-                              class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
-                            >
-                              <span class="text-gray-500 sm:text-sm">$</span>
-                            </div>
-                            <input type="number" name="amount-convertir"
-                            id="amount-convertir" required autocomplete="off"
-                            class="block w-full rounded-md border-0 py-1.5 pl-7
-                            pr-20 text-gray-900 dark:text-white dark:bg-gray-700
-                            ring-gray-300 placeholder:text-gray-400 focus:ring-2
-                            focus:ring-inset focus:ring-indigo-600 sm:text-sm
-                            sm:leading-6"" placeholder="0.00" />
-                            <div
-                              class="absolute inset-y-0 right-0 flex items-center"
-                            >
-                              <label
-                                for="moneda-base"
-                                class="sr-only"
-                                >moneda-base</label
-                              >
-                              <select
-                                id="moneda-base"
-                                name="moneda-base"
-                                class="h-full rounded-md border-0 bg-transparent py-0 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm dark:text-white dark:bg-gray-700 dark:text-white"
-                              >
-                                <option value="ARS">ARS</option>
-                                <option value="USD">USD</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="">
-                          <label
-                            for="moneda-receptor"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                            >Moneda que se desea obtener</label
-                          >
-                          <div class="mt-2">
-                            <select
-                              id="moneda-receptor"
-                              name="moneda-receptor"
-                              autocomplete="moneda-receptor"
-                              required
-                              class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 dark:bg-gray-700 dark:text-white"
-                            >
-                              <option
-                                selected
-                                value="nada"
-                              >
-                                Selecciona moneda
-                              </option>
-                              <option value="ARS">
-                                ARS - Pesos Argentinos
-                              </option>
-                              <option value="USD">
-                                USD - Dolares Americanos
-                              </option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="">
-                          <label
-                            for="cuenta-conversion"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                            >Cuenta</label
-                          >
-                          <div class="mt-2">
-                            <select
-                              id="cuenta-conversion"
-                              name="cuenta-conversion"
-                              autocomplete="emisor-cuenta"
-                              required
-                              class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 dark:bg-gray-700 dark:text-white"
-                            >
-                              <option
-                                selected
                                 value=""
                               >
                                 Selecciona una cuenta
@@ -500,7 +371,123 @@
                         <button
                           class="w-full text-white bg-primary-600 hover:bg-primary-700 hover:ring-4 hover:ring-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-sm text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
                         >
-                          Realizar conversion
+                          Realizar Pago
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="dark:bg-gray-900 w-full sm:min-w-[300px]">
+                <div class="flex flex-col dark:bg-gray-800 px-12 h-full">
+                  <div
+                    class="w-full bg-white rounded-sm shadow dark:border md:mt-0 xl:p-0 dark:bg-gray-800 dark:border-gray-700 max-w-[800px]"
+                  >
+                    <div
+                      class="p-6 space-y-4 md:space-y-6 sm:p-8 justify-center"
+                    >
+                      <h1
+                        class="text-lg font-bold leading-tight tracking-tight text-gray-900 md:text-xl dark:text-white text-center"
+                      >
+                        Pedir prestamo
+                      </h1>
+                      <form
+                        class="space-y-4 md:space-y-6"
+                        id="hi-pedir-prestamo"
+                      >
+                        <div class="">
+                          <label
+                            for="cuenta-destino"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            >Cuenta destino</label
+                          >
+                          <div class="mt-2">
+                            <select
+                              id="cuenta-destino"
+                              name="cuenta-destino"
+                              autocomplete="cuenta-destino"
+                              required
+                              class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 dark:bg-gray-700 dark:text-white"
+                            >
+                              <option
+                                selected
+                                value="nada"
+                              >
+                                Selecciona cuenta destino
+                              </option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="">
+                          <label
+                            for="cantidad-cuotas"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            >Cuotas</label
+                          >
+                          <div class="mt-2">
+                            <select
+                              id="cantidad-cuotas"
+                              name="cantidad-cuotas"
+                              autocomplete="cantidad-cuotas"
+                              required
+                              class="block w-full rounded-sm border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 dark:bg-gray-700 dark:text-white"
+                            >
+                              <option
+                                selected
+                                value="nada"
+                              >
+                                Selecciona cuotas
+                              </option>
+                              <option value="3">3</option>
+                              <option value="6">6</option>
+                              <option value="9">9</option>
+                              <option value="12">12</option>
+                              <option value="24">24</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div>
+                          <label
+                            for="amount-prestamo"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                            >Monto a pedir</label
+                          >
+                          <div class="relative mt-2 rounded-md shadow-sm">
+                            <div
+                              class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+                            >
+                              <span class="text-gray-500 sm:text-sm">$</span>
+                            </div>
+                            <input type="number" name="amount-prestamo"
+                            id="amount-prestamo" required autocomplete="off"
+                            class="block w-full rounded-md border-0 py-1.5 pl-7
+                            pr-20 text-gray-900 dark:text-white dark:bg-gray-700
+                            ring-gray-300 placeholder:text-gray-400 focus:ring-2
+                            focus:ring-inset focus:ring-indigo-600 sm:text-sm
+                            sm:leading-6"" placeholder="0.00" />
+                            <div
+                              class="absolute inset-y-0 right-0 flex items-center"
+                            >
+                              <label
+                                for="moneda-prestamo"
+                                class="sr-only"
+                                >moneda-prestamo</label
+                              >
+                              <select
+                                id="moneda-prestamo"
+                                name="currency"
+                                class="h-full rounded-md border-0 bg-transparent py-0 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm dark:text-white dark:bg-gray-700 dark:text-white"
+                              >
+                                <option>ARS</option>
+                                <option>USD</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          class="w-full text-white bg-primary-600 hover:bg-primary-700 hover:ring-4 hover:ring-primary-600 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-sm text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                        >
+                          Realizar pedido
                         </button>
                       </form>
                     </div>
@@ -508,6 +495,10 @@
                 </div>
               </section>
             </div>
+            <div
+              class="flex flex-wrap 2xl:justify-around gap-2 w-full"
+              id="cuentas-container"
+            ></div>
           </div>
         </main>
         <footer>
@@ -559,7 +550,6 @@
     </div>
     <script src="/js/usericon.js"></script>
     <script src="/js/asidebar.js"></script>
-    <script src="/js/transferencias.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/pagos.js"></script>
   </body>
 </html>

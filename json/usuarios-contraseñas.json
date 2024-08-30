@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "gender": "male",
+      "name": {
+        "first": "Elias",
+        "last": "Medina"
+      },
+      "email": "elias@example.com",
+      "login": {
+        "uuid": "062e85ac-7966-4183-8026-fae59718210c",
+        "username": "einuvy",
+        "password": "123456"
+      },
+      "dob": {
+        "date": "200-05-15T00:00:00.000Z",
+        "age": 24
+      },
+      "phone": "(64) 0510-0789",
+      "cell": "(22) 0541-0109",
+      "id": {
+        "name": "CPF",
+        "value": "840.739.531-92"
+      },
+      "picture": {
+        "large": "https://ca.slack-edge.com/T07FJ1BUN82-U07FN965JPN-e5c40366b9e8-512",
+        "medium": "https://ca.slack-edge.com/T07FJ1BUN82-U07FN965JPN-e5c40366b9e8-512",
+        "thumbnail": "https://ca.slack-edge.com/T07FJ1BUN82-U07FN965JPN-e5c40366b9e8-512"
+      },
+      "nat": "ARG"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "first": "Ariadna",
+        "last": "Cintioni"
+      },
+      "email": "ary@example.com",
+      "login": {
+        "uuid": "b2a2f1d3-5e5d-4936-9233-0d49b5e6e4c1",
+        "username": "Ary",
+        "password": "123456"
+      },
+      "dob": {
+        "date": "200-05-15T00:00:00.000Z",
+        "age": 22
+      },
+      "phone": "(64) 0510-0789",
+      "cell": "(22) 0541-0109",
+      "id": {
+        "name": "CPF",
+        "value": "840.739.531-92"
+      },
+      "picture": {
+        "large": "https://ca.slack-edge.com/T07FJ1BUN82-U07FKQ63VDY-3c56e1281293-512",
+        "medium": "https://ca.slack-edge.com/T07FJ1BUN82-U07FKQ63VDY-3c56e1281293-512",
+        "thumbnail": "https://ca.slack-edge.com/T07FJ1BUN82-U07FKQ63VDY-3c56e1281293-512"
+      },
+      "nat": "ARG"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "first": "Tomás",
+        "last": "Morales"
+      },
+      "email": "tomi@example.com",
+      "login": {
+        "uuid": "d4e3f4a5-8f9g-5738-c4c4-2g6h7i8j6k7l",
+        "username": "tomi",
+        "password": "123456"
+      },
+      "dob": {
+        "date": "200-05-15T00:00:00.000Z",
+        "age": 24
+      },
+      "phone": "(64) 0510-0789",
+      "cell": "(22) 0541-0109",
+      "id": {
+        "name": "CPF",
+        "value": "840.739.531-92"
+      },
+      "picture": {
+        "large": "https://ca.slack-edge.com/T07FJ1BUN82-U07G8JC74N4-c635916219c9-512",
+        "medium": "https://ca.slack-edge.com/T07FJ1BUN82-U07G8JC74N4-c635916219c9-512",
+        "thumbnail": "https://ca.slack-edge.com/T07FJ1BUN82-U07G8JC74N4-c635916219c9-512"
+      },
+      "nat": "ARG"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "first": "Yesica",
+        "last": "Cárdenas"
+      },
+      "email": "yesica@example.com",
+      "login": {
+        "uuid": "f6g5h6i7-0h1i-7950-e6e6-4i8j9k0l0n0o",
+        "username": "yugi",
+        "password": "123456"
+      },
+      "dob": {
+        "date": "200-05-15T00:00:00.000Z",
+        "age": 24
+      },
+      "phone": "(64) 0510-0789",
+      "cell": "(22) 0541-0109",
+      "id": {
+        "name": "CPF",
+        "value": "840.739.531-92"
+      },
+      "picture": {
+        "large": "https://ca.slack-edge.com/T07FJ1BUN82-U07FKLZDNGK-0677518a8d07-512",
+        "medium": "https://ca.slack-edge.com/T07FJ1BUN82-U07FKLZDNGK-0677518a8d07-512",
+        "thumbnail": "https://ca.slack-edge.com/T07FJ1BUN82-U07FKLZDNGK-0677518a8d07-512"
+      },
+      "nat": "ARG"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "first": "Agustin",
+        "last": "Carrone"
+      },
+      "email": "agustin@example.com",
+      "login": {
+        "uuid": "h8i7j8k9-2j3k-9172-g8g8-6k1l2m3n2p3q",
+        "username": "agus",
+        "password": "123456"
+      },
+      "dob": {
+        "date": "200-05-15T00:00:00.000Z",
+        "age": 24
+      },
+      "phone": "(64) 0510-0789",
+      "cell": "(22) 0541-0109",
+      "id": {
+        "name": "CPF",
+        "value": "840.739.531-92"
+      },
+      "picture": {
+        "large": "https://ca.slack-edge.com/T07FJ1BUN82-U07FN8ZTPFE-eff52cbde31f-512",
+        "medium": "https://ca.slack-edge.com/T07FJ1BUN82-U07FN8ZTPFE-eff52cbde31f-512",
+        "thumbnail": "https://ca.slack-edge.com/T07FJ1BUN82-U07FN8ZTPFE-eff52cbde31f-512"
+      },
+      "nat": "ARG"
+    }
+  ],
+  "info": {
+    "seed": "6550552a64859a02",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

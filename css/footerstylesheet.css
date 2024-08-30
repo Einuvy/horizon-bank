@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1.25rem 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative; 
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+.redes {
+    list-style-type: none;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.redes a {
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    transition: color 0.3s ease;
+}
+
+.redes li {
+    margin: 0 0.65rem;
+}
+
+.redes a.fc:hover {
+    color: #1da1f2;
+}
+
+.redes a.x:hover {
+    color: #2e2e2e;
+}
+
+.redes a.ig:hover {
+    color: #e4408d; 
+}
+
+.redes a.whats:hover {
+    color: #22b33a; 
+}
+
+.default-text{
+    text-align: center;
+}
+
+.links-legales {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.links-legales a{
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1.1rem; 
+}
+
+.links-legales a:hover {
+    text-decoration: underline;
+}

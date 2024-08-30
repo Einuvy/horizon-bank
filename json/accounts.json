@@ -1,0 +1,142 @@
+{
+  "accounts": [
+    {
+        "type": "Corriente",
+        "email": "elias@example.com",
+        "user": {
+            "uuid": "062e85ac-7966-4183-8026-fae59718210c",
+            "username": "einuvy"
+        },
+        "code": "HI-791548447865",
+        "ARS": 3245678901,
+        "USD": 9876,
+        "CBU": "2850590940090418135201"
+    },
+    {
+        "type": "Inversion",
+        "email": "elias@example.com",
+        "user": {
+            "uuid": "062e85ac-7966-4183-8026-fae59718210c",
+            "username": "einuvy"
+        },
+        "code": "HI-791548483689",
+        "ARS": 4567890123,
+        "USD": 5432,
+        "CBU": "2850590940090481789134"
+    },
+    {
+        "type": "Sueldo",
+        "email": "elias@example.com",
+        "user": {
+            "uuid": "062e85ac-7966-4183-8026-fae59718210c",
+            "username": "einuvy"
+        },
+        "code": "HI-791548446548",
+        "ARS": 5678901234,
+        "USD": 7890,
+        "CBU": "2850590940090581967412"
+    },
+    {
+        "type": "Corriente",
+        "email": "ary@example.com",
+        "user": {
+            "uuid": "b2a2f1d3-5e5d-4936-9233-0d49b5e6e4c1",
+            "username": "ary"
+        },
+        "code": "HI-981276354128",
+        "ARS": 2178654321,
+        "USD": 7634,
+        "CBU": "2850590940012345678901"
+    },
+    {
+        "type": "Ahorro",
+        "email": "ary@example.com",
+        "user": {
+            "uuid": "b2a2f1d3-5e5d-4936-9233-0d49b5e6e4c1",
+            "username": "ary"
+        },
+        "code": "HI-345612348765",
+        "ARS": 3145267890,
+        "USD": 4523,
+        "CBU": "2850590940098765432102"
+    },
+    {
+        "type": "Sueldo",
+        "email": "tomi@example.com",
+        "user": {
+            "uuid": "d4e3f4a5-8f9g-5738-c4c4-2g6h7i8j6k7l",
+            "username": "tomi"
+        },
+        "code": "HI-789123654389",
+        "ARS": 4567832190,
+        "USD": 9832,
+        "CBU": "2850590940012345678933"
+    },
+    {
+        "type": "Corriente",
+        "email": "tomi@example.com",
+        "user": {
+            "uuid": "d4e3f4a5-8f9g-5738-c4c4-2g6h7i8j6k7l",
+            "username": "tomi"
+        },
+        "code": "HI-234567892345",
+        "ARS": 5678321901,
+        "USD": 2345,
+        "CBU": "2850590940098765432104"
+    },
+    {
+        "type": "Corriente",
+        "email": "yesica@example.com",
+        "user": {
+            "uuid": "f6g5h6i7-0h1i-7950-e6e6-4i8j9k0l0n0o",
+            "username": "yugi"
+        },
+        "code": "HI-678912345678",
+        "ARS": 6783210987,
+        "USD": 7643,
+        "CBU": "2850590940012345678965"
+    },
+    {
+        "type": "Sueldo",
+        "email": "yesica@example.com",
+        "user": {
+            "uuid": "f6g5h6i7-0h1i-7950-e6e6-4i8j9k0l0n0o",
+            "username": "yugi"
+        },
+        "code": "HI-123456789012",
+        "ARS": 7892109876,
+        "USD": 6542,
+        "CBU": "2850590940098765432106"
+    },
+    {
+        "type": "Sueldo",
+        "email": "agustin@example.com",
+        "user": {
+            "uuid": "h8i7j8k9-2j3k-9172-g8g8-6k1l2m3n2p3q",
+            "username": "agus"
+        },
+        "code": "HI-987654321098",
+        "ARS": 8321098765,
+        "USD": 8765,
+        "CBU": "2850590940012345678987"
+    },
+    {
+        "type": "Corriente",
+        "email": "agustin@example.com",
+        "user": {
+            "uuid": "h8i7j8k9-2j3k-9172-g8g8-6k1l2m3n2p3q",
+            "username": "agus"
+        },
+        "code": "HI-345678901234",
+        "ARS": 3210987654,
+        "USD": 5432,
+        "CBU": "2850590940098765432108"
+    }
+  ],
+  "info": {
+    "seed": "6550552a64859a02",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
